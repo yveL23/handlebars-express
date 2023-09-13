@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    border-bottom: 1px solid #ccc;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+.navbar ul i{
+    margin-left: 1rem;
+}
+
+h1{
+    text-align: center;
+}
+
+.form, .book-container{
+    width: 450px;
+    margin: 0 auto;
+}
+
+.form-control{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.5rem;
+}
+
+.form-control label{
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+}
+
+.form-control input{
+    padding: 5px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.bold-page{
+    padding: 2rem;
+}
+
